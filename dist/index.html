@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ORCAS - Token Launch Platform</title>
+    <meta name="description" content="ORCAS is revolutionizing how projects raise capital and how investors participate in the next generation of cryptocurrency tokens." />
+    <style>
+      /* Ensure smooth page load with proper background */
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(249, 250, 251); /* Tailwind's bg-gray-50 */
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      /* Add a subtle loading animation */
+      .loading {
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+      }
+      .loaded {
+        opacity: 1;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-DHVV6N-5.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-CdhxP5iX.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DA78S98v.css">
+  </head>
+  <body>
+    <div id="root" class="loading"></div>
+    <script>
+      // Add loaded class once the page is ready
+      window.addEventListener('load', () => {
+        document.getElementById('root').classList.add('loaded');
+      });
+    </script>
+  </body>
+</html>
