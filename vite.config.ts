@@ -15,6 +15,7 @@ export default defineConfig({
     },
   },
   build: {
+    outDir: 'dist', // Output directory for the build
     rollupOptions: {
       input: 'src/main.js', // Ensure this matches your entry file
     },
